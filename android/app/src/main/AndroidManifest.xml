@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="dev.imranr.obtainium">
+    <uses-sdk tools:overrideLibrary="dev.re7gog.android_system_font"/>
     <application
         android:label="@string/label"
         android:name="${applicationName}"
